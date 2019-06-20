@@ -6,7 +6,7 @@
   "author": "Lalit Yadav",
   "license": "MIT",
   "scripts": {
-    "start": "parcel template.html -p 3001",
+    "start": "parcel template.html -p 3001 --open",
     "build": "parcel build template.html",
     "heroku-postbuild": "parcel build template.html"
   },
