@@ -1,0 +1,40 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html, #root {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body.overflowHidden {
+  overflow-y: hidden;
+}
+
+div,
+input,
+textarea {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="radio"]:disabled, label:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
